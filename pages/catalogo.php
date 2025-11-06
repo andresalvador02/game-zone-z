@@ -1,7 +1,6 @@
 <?php
 require __DIR__ . '/../config/db.sample.php';
 include __DIR__ . '/../includes/header.php';
-
 $stmt = $mysqli->prepare("SELECT id, titulo, descripcion, precio, imagen FROM videojuegos ORDER BY id DESC LIMIT 50");
 $stmt->execute();
 $res = $stmt->get_result();

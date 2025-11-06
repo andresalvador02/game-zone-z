@@ -1,8 +1,6 @@
 <?php
 require __DIR__ . '/../config/db.sample.php';
 if (session_status() === PHP_SESSION_NONE) session_start();
-
-// Añadir al carrito (session)
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product_id'])) {
     $pid = (int)$_POST['product_id'];
     $qty = max(1, (int)$_POST['qty']);
@@ -15,7 +13,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product_id'])) {
     header("Location: /game-zone-z/pages/carrito.php");
     exit;
 }
-
 include __DIR__ . '/../includes/header.php';
 $cart = $_SESSION['cart'] ?? [];
 $items = [];

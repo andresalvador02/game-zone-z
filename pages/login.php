@@ -2,7 +2,6 @@
 require __DIR__ . '/../config/db.sample.php';
 include __DIR__ . '/../includes/header.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['email'])) {
-    // placeholder login - implement with password_verify in future
     $_SESSION['user'] = $_POST['email'];
     header('Location: /game-zone-z/index.php');
     exit;

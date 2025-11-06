@@ -1,23 +1,11 @@
-# Configuración y credenciales
-config/db.php
+/config/db.php
 .env
-
-# Sistema
 desktop.ini
 .DS_Store
 Thumbs.db
-
-# Dependencias
 /vendor/
-node_modules/
-tmp/
-cache/
-
-# Logs y backups
-*.log
-*.bak
-*.tmp
-
-# IDEs
+/node_modules/
+/assets/img/large/
+/*.env
 .vscode/
 .idea/
