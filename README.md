@@ -1,15 +1,20 @@
-<<<<<<< HEAD
-Game Zone - Setup local (XAMPP)
+# 🎮 Game Zone Z
 
-1. Copiar carpeta a C:\xampp\htdocs\GameZone
-2. Iniciar Apache y MySQL desde XAMPP Control Panel
-3. Ejecutar script SQL:
-   - Abrir XAMPP Shell y ejecutar:
-     mysql -u root < "C:\xampp\htdocs\GameZone\database\gamezone.sql"
-4. Crear archivo de configuración:
-   - Copiar config/db.sample.php -> config/db.php y ajustar credenciales.
-5. Abrir en navegador:
-   http://localhost/GameZone/index.php
-=======
-# game-zone-z
->>>>>>> a006fe7160a04be7c80a31a749d8f5911b42e343
+**Game Zone Z** es una plataforma web desarrollada en **PHP** con conexión a **MariaDB**, que continúa la evolución del proyecto *Game Zone* del curso **Taller de Software I**, ahora modernizado para **Taller de Software II**.  
+El proyecto busca simular un sistema de venta de videojuegos de forma segura, didáctica y escalable, con despliegue en **Azure App Service** y control de versiones mediante **GitHub**.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Backend:** PHP 8.x  
+- **Base de Datos:** MariaDB (XAMPP local)  
+- **Servidor local:** XAMPP  
+- **Despliegue:** Azure App Service (dominio personalizado)  
+- **Control de versiones:** Git + GitHub  
+
+---
+
+## ⚙️ Estructura del proyecto
+
