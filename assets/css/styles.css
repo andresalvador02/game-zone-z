@@ -1,0 +1,7 @@
+/* Basic styles for Game Zone Z */
+body { background: #0f172a; color: #e6eef8; }
+.container { color: initial; }
+.bg-light { background: #f8f9fa !important; }
+.card { border-radius: 12px; overflow: hidden; }
+.hero { padding: 48px; text-align: center; color: #fff; }
+.btn-primary { background-color: #0d6efd; }

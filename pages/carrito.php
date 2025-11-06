@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../config/db.php';
+require __DIR__ . '/../config/db.sample.php';
 if (session_status() === PHP_SESSION_NONE) session_start();
 
 // Añadir al carrito (session)
@@ -12,11 +12,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['product_id'])) {
     } else {
         $_SESSION['cart'][$pid] = $qty;
     }
-    header("Location: /GameZone/pages/carrito.php");
+    header("Location: /game-zone-z/pages/carrito.php");
     exit;
 }
 
-// Mostrar carrito
 include __DIR__ . '/../includes/header.php';
 $cart = $_SESSION['cart'] ?? [];
 $items = [];
@@ -50,6 +49,6 @@ if ($cart) {
       <tr><td></td><td class="fw-bold">Total</td><td class="fw-bold"><?php echo number_format($total,2); ?> PEN</td></tr>
     </tbody>
   </table>
-  <a class="btn btn-primary" href="/GameZone/pages/pago_exitoso.php">Simular pago</a>
+  <a class="btn btn-primary" href="/game-zone-z/pages/pago_exitoso.php">Simular pago</a>
 <?php endif; ?>
 <?php include __DIR__ . '/../includes/footer.php'; ?>

@@ -1,31 +1,23 @@
-# Archivos de configuración locales 
+# Configuración y credenciales
 config/db.php
 .env
 
-# Archivos de sistema
+# Sistema
 desktop.ini
 .DS_Store
 Thumbs.db
 
-# Directorios temporales o generados automáticamente
+# Dependencias
 /vendor/
 node_modules/
 tmp/
 cache/
 
-# Archivos de respaldo o logs
+# Logs y backups
 *.log
 *.bak
 *.tmp
 
-# Imágenes grandes o de desarrollo local
-assets/img/large/
-assets/img/temp/
-
-# Archivos específicos de editor/IDE
+# IDEs
 .vscode/
 .idea/
-
-# Archivos de Python 
-__pycache__/
-*.pyc

@@ -1,0 +1,1 @@
+<?php session_start(); session_destroy(); header('Location: /game-zone-z/index.php'); exit; ?>
