@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Game Zone - Setup local (XAMPP)
 
 1. Copiar carpeta a C:\xampp\htdocs\GameZone
@@ -9,3 +10,6 @@ Game Zone - Setup local (XAMPP)
    - Copiar config/db.sample.php -> config/db.php y ajustar credenciales.
 5. Abrir en navegador:
    http://localhost/GameZone/index.php
+=======
+# game-zone-z
+>>>>>>> a006fe7160a04be7c80a31a749d8f5911b42e343
